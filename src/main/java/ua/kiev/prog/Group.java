@@ -1,8 +1,6 @@
 package ua.kiev.prog;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreType;
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -10,7 +8,6 @@ import java.util.List;
 
 @Entity
 @Table(name = "Groups1")
-//@JsonIgnoreType
 public class Group {
     @Id
     @GeneratedValue
